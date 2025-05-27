@@ -2,7 +2,7 @@
 
 This Smart Energy Management System allows users to monitor energy usage, control appliances, and track air quality in real time through a web interface. Here's a breakdown of the workflow:
 
-1. 📶 Connect ESP32 to Wi-Fi
+1.  Connect ESP32 to Wi-Fi
 - Upload the provided Arduino code to the ESP32 board.
 - Upon startup, the ESP32 connects to your local Wi-Fi network.
 - It begins reading data from:
@@ -23,13 +23,13 @@ This Smart Energy Management System allows users to monitor energy usage, contro
   - Monitoring energy usage every minute
   - Checking the estimated electricity bill
 
-4. 📊 Usage Logging and Billing
+4.  Usage Logging and Billing
 - The JavaScript frontend calculates:
   - Watt-minute values for each appliance.
   - Aggregates the values and converts them to kWh.
   - Estimates the electricity bill (default rate: ₱10.00 per kWh).
 
-5. 🛑 Air Quality Classification
+5. Air Quality Classification
 - Sensor readings are categorized for user clarity:
   - MQ2: Safe, Alarming, Dangerous
   - MQ135: Excellent, Good, Moderate, Unhealthy, Very Unhealthy
